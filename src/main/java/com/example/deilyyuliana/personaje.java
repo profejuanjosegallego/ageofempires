@@ -2,15 +2,15 @@ package com.example.deilyyuliana;
 
 import java.util.UUID;
 
-public class personaje {
+public class Personaje {
  
     private UUID id;
     private String nombre;
     private Integer defensa;
     private String civilizacion;
-    public personaje() {
+    public Personaje() {
     }
-    public personaje(UUID id, String nombre, Integer defensa, String civilizacion) {
+    public Personaje(UUID id, String nombre, Integer defensa, String civilizacion) {
         this.id = id;
         this.nombre = nombre;
         this.defensa = defensa;
@@ -50,5 +50,4 @@ public class personaje {
 
     
 }
-
 
